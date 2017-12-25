@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center_horizontal"
+            android:text="Events"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/oneworld"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:textSize="50px"
+        android:onClick="oneworld"
+        android:layout_weight="1"
+
+        android:drawablePadding="10px"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/oneworld"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:id="@+id/oneindia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:textSize="50px"
+        android:onClick="oneindia"
+        android:layout_weight="1"
+        android:drawablePadding="10px"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/onein"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:id="@+id/Youthvibe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50px"
+        android:onClick="youthvibe"
+        android:layout_weight="1"
+        android:drawablePadding="10px"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/youthvb"
+        android:layout_margin="@dimen/margin"
+        />
+
+</LinearLayout>

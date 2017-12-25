@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal"
+          >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="2dp"
+                    android:onClick="upcomingevents"
+
+                    android:text="Zakir Live show \n 22 nov 2017 \n SDMA at 4 pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:onClick="upcomingevents"
+
+                    android:padding="2dp"
+                    android:text=" Quiz \n 27 nov 2017 \n 34-408 5:30pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="2dp"
+                    android:onClick="upcomingevents"
+
+                    android:text=" Fashion Show \n 27 nov 2017 \n DSA Stage 5:30pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="2dp"
+                    android:onClick="upcomingevents"
+
+                    android:text=" Dj night \n 30 nov 2017 \n Main stage 7:30pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:onClick="upcomingevents"
+
+                    android:padding="2dp"
+                    android:text=" Explorica \n 29*30 nov 2017 \n Main stage 9-7 pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="2dp"
+                    android:onClick="upcomingevents"
+
+                    android:text=" one world \n 29-30 nov 2017 \n Main stage 9-7 pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="2dp"
+                    android:text=" youth vibe \n 27-30 nov 2017 \n Main stage 9-7 pm"
+                    android:onClick="upcomingevents"
+
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:onClick="upcomingevents"
+
+                    android:padding="2dp"
+                    android:text=" Explorica \n 29-30 nov 2017 \n Main stage 9-7 pm"
+                    android:background="@drawable/customborder"
+                    android:textColor="#FF151515"
+                    android:textSize="20sp" />
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/customborder"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="events"
+                app:srcCompat="@drawable/events" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+
+            >
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:onClick="hirericks"
+                app:srcCompat="@drawable/auto" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="gallery"
+                android:background="@drawable/customborder"
+
+                app:srcCompat="@drawable/gallery" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/customborder"
+
+
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:onClick="register"
+                app:srcCompat="@drawable/online" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/customborder"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="contactus"
+                app:srcCompat="@drawable/cu" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/customborder">
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="enquiry"
+                app:srcCompat="@drawable/check"  />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

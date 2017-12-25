@@ -1,0 +1,808 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Events"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#23d7ce"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/b1"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="Convocation"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                    <Button
+
+
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="youthvibe"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="lpu national literacy fest"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="race go carts"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="solar car racing"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="hero of indian market"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="young verto conclave"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="Coke studio live concert"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cultural"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#9e6cf9f2"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="Global female folk dance "
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="one world expo"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="one indian expo"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="ju rythm"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="dance society"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="music society"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="literary society"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="fine arts"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="theatre"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="brisk"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sports"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#23d7ce"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="athletics"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="badminton"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="baseball"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="basketball"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="chess"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="kabbadi"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="football"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="hockey"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="net ball"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="shooting"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="squash"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Organisations"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#9e6cf9f2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="cypher"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="lpu seindia collegiate club"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="robotics and intelligent system"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="tech ethics"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="the bridge"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Startup"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#23d7ce"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="E rickshaw"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="serving u"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="riscin technology pvt ltd"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="republic motors"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="froot shoot"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="kites king"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="sabstore.in"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="african food cafe"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="gm hygiene services"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="vkustomize"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="flower cart"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Comservices"
+            android:textSize="20dp"
+            android:textColor="#FF151515"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#9e6cf9f2"
+            android:onClick="upcomingevents">
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="joy of giving"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="samarpan"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="sathi"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="gyandeep teaching project"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="cancer awareness"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="national cadet corps"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="earth day"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="nss camp"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="pulse polio canpaign"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:onClick="activityregform"
+                        android:padding="2dp"
+                        android:text="swach bharat abhiyan"
+                        android:textColor="#FF151515"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i1" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i5" />
+
+
+
+            <ImageView
+                android:id="@+id/iv4"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i4" />
+
+
+
+            <ImageView
+                android:id="@+id/iv6"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i6" />
+            <ImageView
+                android:id="@+id/iv7"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i7" />
+            <ImageView
+                android:id="@+id/iv8"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:padding="2dp"
+                android:textColor="#FF151515"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/i8" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

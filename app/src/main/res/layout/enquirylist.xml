@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/eql_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Person name" />
+
+        <TextView
+            android:id="@+id/eql_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Mobile Number" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/eql_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone number" />
+
+    <TextView
+        android:id="@+id/eql_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject" /><TextView
+    android:id="@+id/eql_desc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="description" />
+
+
+</LinearLayout>

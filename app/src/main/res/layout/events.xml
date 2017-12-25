@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Youthvibe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="youthvibe"
+        android:text="Youthvibe" />
+
+    <Button
+        android:id="@+id/oneindia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oneindia"
+        android:text="oneindia" />
+
+    <Button
+        android:id="@+id/oneworld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oneworld"
+        android:text="oneworld" />
+</LinearLayout>
